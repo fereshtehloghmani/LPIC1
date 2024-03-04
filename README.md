@@ -34,3 +34,8 @@ modprobe  modulename
  5  Init program start the service, other programs, ... (web server, graphical interface, networking, etc.)
  
 ## Firmware: BIOS  -  UEFI 
+   bios is old version and first need MBR
+   UEFI is new version of firmware
+
+ ## BootLoader (GRUB)
+   
