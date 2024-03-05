@@ -15,10 +15,12 @@ Sysfs is mounted under the /sys mount point
 
 ## proc directory
   This is where the Kernel keeps its settings and properties. This directory is created on ram and files might have write access (say for some hardware configurations). 
+
 ## some commands
 lsblk
 lsusb
 lspci
+
 ## Loadable Kernel Modules
 Linux like any other OS needs drivers to work with hardware. In Microsoft Windows, you need to install the drivers separately but in Linux, the system has most of the drivers built-in. But to prevent the kernel from loading all of them at the same time and to decrease the Kernel size, Linux uses Kernel Modules. Loadable kernel modules (.ko files) are object files that are used to extend the kernel of the Linux Distribution. 
 
@@ -38,5 +40,16 @@ modprobe  modulename
    bios is old version and first need MBR
    UEFI is new version of firmware
 
- ## BootLoader (GRUB)
+ ## BootLoader (GRUB) 
+ Bootloader initializes the minimum hardware needed to boot the system and then finds and runs the OS. &  initramfs
+
+ ## kernel ring buffer --یک دیسکی کنار کرنل  که بتونه دیسک و تازه لود کنه و در نتیجه لاگ ها رو در بافر ذخیره میکنه 
+ ## How access to these logs?
+    dmesg  -- its show you all loges during os boot
+    /var/log/dmesg
+
+
+    
+
+ 
    
