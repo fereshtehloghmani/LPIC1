@@ -1,4 +1,5 @@
 # LPIC1
+** link: https://linux1st.com/1012-boot-the-system.html
 
 ## sysfs
  sysfs is a pseudo file system provided by the Linux kernel that exports information about various kernel subsystems, hardware devices, and associated device drivers from the kernel's device model to user space through 
