@@ -34,7 +34,7 @@ modprobe  modulename
  2 Motherboard loads the bootloader
  3 Bootloader loads the Linux Kernel-based on its configs/commands
  4 The Kernel loads and prepares the system (root filesystem) and runs the initialization program
- 5  Init program start the service, other programs, ... (web server, graphical interface, networking, etc.)
+ 5 Init program start the service, other programs, ... (web server, graphical interface, networking, etc.)
  
 ## Firmware: BIOS  -  UEFI 
    bios is old version and first need MBR
